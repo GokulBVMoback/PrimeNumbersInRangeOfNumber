@@ -17,9 +17,8 @@ namespace PrimeNumbers
             for(int i=2; i<=n; i++)
             {
                 int prime=1;
-                for (int j = 2; j <= n+1; ++j)
+                for (int j = 2; j <= i+1; ++j)
                 {
-                    //prime = i % j;
                     if (i != j)
                     {
                         prime = i % j;
